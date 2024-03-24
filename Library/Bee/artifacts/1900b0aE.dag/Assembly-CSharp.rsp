@@ -357,6 +357,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/MainMenu/MainMenu.cs"
 "Assets/Scripts/EndLevelTrigger.cs"
+"Assets/Scripts/Player/GroundCheck.cs"
 "Assets/Scripts/Player/Movement.cs"
 "Assets/Scripts/СameraOnHero.cs"
 -langversion:9.0

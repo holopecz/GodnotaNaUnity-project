@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
     [SerializeField] float speed , jump_height;
-    private bool isGrounded;
+    [HideInInspector] public bool isGrounded;
     void Start()
     {
         
@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
 
-        if(horizontal != 0 )
+        //if(horizontal != 0)
         rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, horizontal * speed);
 
         if (Input.GetKey(KeyCode.Space) && isGrounded)
@@ -26,11 +26,9 @@ public class Movement : MonoBehaviour
             isGrounded = false;
         }
         rb.AddForce(new Vector3(0, -10, 0), ForceMode.Force);
-        Debug.Log(rb.velocity); 
+
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.up * -1, out hit, 1f)) isGrounded = true;
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        isGrounded = true;
-    }
 }
