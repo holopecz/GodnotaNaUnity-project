@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8883802904292816087
+--- !u!1001 &3897624140942167511
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.34
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
       propertyPath: m_Name
-      value: personaj_v2 Variant
+      value: personaj_v2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
       propertyPath: m_TagString
@@ -74,30 +74,30 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8552629770125568179}
+      addedObject: {fileID: 4435338371008379139}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5121345580727706138}
+      addedObject: {fileID: 1280855923796787955}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7453528307508975837}
+      addedObject: {fileID: 5010868928597957582}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3029047007961993299}
+      addedObject: {fileID: 272179885251390244}
   m_SourcePrefab: {fileID: 100100000, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
---- !u!1 &2794553823199620354 stripped
+--- !u!1 &4239661107638530182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18c08875da4ae144c888baf341a806cf, type: 3}
-  m_PrefabInstance: {fileID: 8883802904292816087}
+  m_PrefabInstance: {fileID: 3897624140942167511}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &8552629770125568179
+--- !u!95 &4435338371008379139
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2794553823199620354}
+  m_GameObject: {fileID: 4239661107638530182}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
@@ -111,16 +111,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!54 &5121345580727706138
+--- !u!54 &1280855923796787955
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2794553823199620354}
+  m_GameObject: {fileID: 4239661107638530182}
   serializedVersion: 4
-  m_Mass: 70
-  m_Drag: 1
+  m_Mass: 1
+  m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -136,15 +136,15 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 114
   m_CollisionDetection: 0
---- !u!136 &7453528307508975837
+--- !u!136 &5010868928597957582
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2794553823199620354}
+  m_GameObject: {fileID: 4239661107638530182}
   m_Material: {fileID: 13400000, guid: ce82377b3cf021a4aa2410dbad0b5ee7, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -160,19 +160,21 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 1.64
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3029047007961993299
+  m_Center: {x: 0, y: 0.09, z: 0}
+--- !u!114 &272179885251390244
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2794553823199620354}
+  m_GameObject: {fileID: 4239661107638530182}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8466dfc7af5e29d42b5856f4fb138c0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 5121345580727706138}
+  rb: {fileID: 1280855923796787955}
   speed: 8
-  jump_height: 1000
+  jump_height: 15
+  isGrounded: 0
+  doubleJump: 0
