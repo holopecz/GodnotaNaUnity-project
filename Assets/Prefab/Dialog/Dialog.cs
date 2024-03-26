@@ -26,6 +26,8 @@ public class Dialog : MonoBehaviour
                 Dialog_canvas.SetActive(false);
                 text_index = 0;
                 Time.timeScale = 1;
+                if (GetComponent<ItemUnlock>()) GetComponent<ItemUnlock>().UnlockItem();
+                Destroy(gameObject);
             }
 
 

@@ -360,6 +360,12 @@
 "Assets/Prefab/Dialog/Dialog.cs"
 "Assets/Scripts/EndLevelTrigger.cs"
 "Assets/Scripts/Player/Movement.cs"
+"Assets/Scripts/Player/ReturnToCheckPoint.cs"
+"Assets/Scripts/Triggers/AutoUseCheckpoint.cs"
+"Assets/Scripts/Triggers/ChildOfConstruct.cs"
+"Assets/Scripts/Triggers/Construct_raise.cs"
+"Assets/Scripts/Triggers/ItemUnlock.cs"
+"Assets/Scripts/Triggers/SetCheckpoint.cs"
 "Assets/Scripts/СameraOnHero.cs"
 -langversion:9.0
 
