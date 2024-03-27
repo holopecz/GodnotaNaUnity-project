@@ -27,6 +27,6 @@ public class ChildOfConstruct : MonoBehaviour
         yield return new WaitForSeconds(5);
         canvas_animr.SetTrigger("roll");
         yield return new WaitForSeconds(10);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(6);
     }
 }
