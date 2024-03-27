@@ -364,6 +364,7 @@
 "Assets/Scripts/Triggers/AutoUseCheckpoint.cs"
 "Assets/Scripts/Triggers/ChildOfConstruct.cs"
 "Assets/Scripts/Triggers/Construct_raise.cs"
+"Assets/Scripts/Triggers/Finishing.cs"
 "Assets/Scripts/Triggers/ItemUnlock.cs"
 "Assets/Scripts/Triggers/SetCheckpoint.cs"
 "Assets/Scripts/СameraOnHero.cs"
