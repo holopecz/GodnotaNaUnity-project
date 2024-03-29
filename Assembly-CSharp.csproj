@@ -64,13 +64,18 @@
     <Compile Include="Assets\Scripts\Triggers\SetCheckpoint.cs" />
     <Compile Include="Assets\Scripts\Triggers\AutoUseCheckpoint.cs" />
     <Compile Include="Assets\Scripts\Player\Movement.cs" />
+    <Compile Include="Assets\MainMenu\DevListUrlScripts\Kirill2Url.cs" />
     <Compile Include="Assets\Scripts\Player\ReturnToCheckPoint.cs" />
+    <Compile Include="Assets\Scripts\MusicScript.cs" />
+    <Compile Include="Assets\MainMenu\DevListUrlScripts\IvanUrlScript.cs" />
     <Compile Include="Assets\Scripts\Triggers\ChildOfConstruct.cs" />
     <Compile Include="Assets\Scripts\EndLevelTrigger.cs" />
     <Compile Include="Assets\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\PauseMenu\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Triggers\Finishing.cs" />
+    <Compile Include="Assets\MainMenu\DevListUrlScripts\AndrejUrl.cs" />
     <Compile Include="Assets\Scripts\СameraOnHero.cs" />
+    <Compile Include="Assets\MainMenu\DevListUrlScripts\KirillLUrl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

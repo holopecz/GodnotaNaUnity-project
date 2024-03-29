@@ -41,6 +41,27 @@ public class Dialog : MonoBehaviour
                 SetText();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Space) && Dialog_canvas.active)
+        {
+            if (text_index + 1 < texts.Length)
+            {
+                text_index++;
+                SetText();
+
+            }
+            else
+            {
+                Dialog_canvas.SetActive(false);
+                text_index = 0;
+                Time.timeScale = 1;
+                if (GetComponent<ItemUnlock>()) GetComponent<ItemUnlock>().UnlockItem();
+                Destroy(gameObject);
+            }
+
+
+        }
+
     }
 
     private void OnTriggerEnter(Collider other)
