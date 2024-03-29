@@ -363,7 +363,6 @@
 "Assets/PauseMenu/PauseMenu.cs"
 "Assets/Prefab/Dialog/Dialog.cs"
 "Assets/Scripts/EndLevelTrigger.cs"
-"Assets/Scripts/MusicScript.cs"
 "Assets/Scripts/Player/Movement.cs"
 "Assets/Scripts/Player/ReturnToCheckPoint.cs"
 "Assets/Scripts/Triggers/AutoUseCheckpoint.cs"
@@ -372,6 +371,7 @@
 "Assets/Scripts/Triggers/Finishing.cs"
 "Assets/Scripts/Triggers/ItemUnlock.cs"
 "Assets/Scripts/Triggers/SetCheckpoint.cs"
+"Assets/Scripts/Volume.cs"
 "Assets/Scripts/СameraOnHero.cs"
 -langversion:9.0
 

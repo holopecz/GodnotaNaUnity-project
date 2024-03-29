@@ -5,14 +5,24 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pause_menu;
+    [SerializeField] private GameObject options_menu;
     private bool paused;
+    private bool inOptions;
+
 
     private void Start()
     {
         paused = false;
         pause_menu.SetActive(false);
+        inOptions = false;
+        options_menu.SetActive(false);
     }
 
+    public void setInOptions()
+    {
+        inOptions = true;
+
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -25,11 +35,22 @@ public class PauseMenu : MonoBehaviour
             }
             else
             {
-                paused = false;
-                pause_menu.SetActive(false);
-                Time.timeScale = 1;
+               
+                if(inOptions)
+                {
+                    options_menu.SetActive(false) ;
+                    inOptions = false;
+                }
+                else
+                {
+                    paused = false;
+                    pause_menu.SetActive(false);
+                    options_menu.SetActive(false);
+                    Time.timeScale = 1;
+                }
             }
         }
+  
     }
 
     public void Quit()
