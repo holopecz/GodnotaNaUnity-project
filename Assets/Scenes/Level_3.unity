@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.085501425, g: 0.18893358, b: 0.43189135, a: 1}
+  m_IndirectSpecularColor: {r: 0.085362546, g: 0.18886697, b: 0.43178445, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,6 +178,10 @@ PrefabInstance:
     - target: {fileID: 7191697353971505199, guid: 833fd8cfb6459264baaa2361db573d3a, type: 3}
       propertyPath: m_Name
       value: checkpoint_trigger (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191697353971505199, guid: 833fd8cfb6459264baaa2361db573d3a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -411,7 +415,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &402202025
 AudioSource:
   m_ObjectHideFlags: 0
@@ -585,6 +589,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 198686255113857710, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3330490333490537564, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
       propertyPath: m_Name
       value: Pouse_menu_canvas 1
@@ -668,6 +676,62 @@ PrefabInstance:
     - target: {fileID: 5318105162841210428, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766330097054087326, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766330097054087326, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766330097054087326, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7782740648985307872, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7782740648985307872, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8133323731333462734, guid: 6d62bb75dda00094d801613aa73d7042, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.b
@@ -914,6 +978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InvisavleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1386667662402859729, guid: e2e74296d73b27441b100124c7002d4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7905943345215241431, guid: e2e74296d73b27441b100124c7002d4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -69.242355
@@ -1063,6 +1131,10 @@ PrefabInstance:
     - target: {fileID: 7191697353971505199, guid: 833fd8cfb6459264baaa2361db573d3a, type: 3}
       propertyPath: m_Name
       value: checkpoint_trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191697353971505199, guid: 833fd8cfb6459264baaa2361db573d3a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1381,7 +1453,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1424520921
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1559,6 +1631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 2320604981192760453, guid: ed39d6c11ee6e1748aa5ed1b0e04a95d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4815172721606891792, guid: ed39d6c11ee6e1748aa5ed1b0e04a95d, type: 3}
       propertyPath: level_to_load
       value: 4
@@ -1683,6 +1759,10 @@ PrefabInstance:
     - target: {fileID: 5931689798809764050, guid: 8a7c9f060bf71b7498653acf732b1c43, type: 3}
       propertyPath: m_Name
       value: dialog_trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931689798809764050, guid: 8a7c9f060bf71b7498653acf732b1c43, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1916,6 +1996,10 @@ PrefabInstance:
     - target: {fileID: 1475190272295311535, guid: cd973cd88c24bd748838bcbfe6691090, type: 3}
       propertyPath: m_Name
       value: Return_trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1475190272295311535, guid: cd973cd88c24bd748838bcbfe6691090, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2729381545670604567, guid: cd973cd88c24bd748838bcbfe6691090, type: 3}
       propertyPath: checkpointUser
@@ -2282,6 +2366,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d6ab8991f5df6345a11638876bec711, type: 3}
       propertyPath: m_Name
       value: lvl_bridge_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d6ab8991f5df6345a11638876bec711, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3540918566277086579, guid: 5d6ab8991f5df6345a11638876bec711, type: 3}
       propertyPath: m_Materials.Array.data[0]
