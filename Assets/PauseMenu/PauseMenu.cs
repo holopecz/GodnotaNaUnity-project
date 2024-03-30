@@ -6,8 +6,8 @@ public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pause_menu;
     [SerializeField] private GameObject options_menu;
-    private bool paused;
-    private bool inOptions;
+    public bool paused;
+    public bool inOptions;
 
 
     private void Start()
@@ -38,7 +38,8 @@ public class PauseMenu : MonoBehaviour
                
                 if(inOptions)
                 {
-                    options_menu.SetActive(false) ;
+                    options_menu.SetActive(false);
+                    pause_menu.SetActive(true);
                     inOptions = false;
                 }
                 else
